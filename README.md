@@ -1,8 +1,9 @@
 # Wonder Wheel
 
-The Wonder Wheel accepts an array of objects representing skills, called slices. These skills have a title, fill color, font color, id as well as project id for filter purposes. The project id corresponds to the array of project objects. See below.
+The Wonder Wheel accepts an array of objects representing skills, called `slices`. These `slices` have a title, fill color, font color, id as well as project id for filter purposes. The project id corresponds to the array of project objects. See below.
 
-```var projects = [
+```
+var projects = [
   {projectName: 'JavaScript 1', filter: 'js'},
   {projectName: 'JavaScript 2', filter: 'js'},
   {projectName: 'JavaScript 3', filter: 'js'},

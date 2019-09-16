@@ -1,0 +1,131 @@
+#wrapper{
+    width:600px;
+    display: block;
+    margin: auto;
+    position: relative;
+
+}
+
+#canvas {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.axel{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius:50%;
+    z-index:1000;
+
+}
+
+#listContainer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.post{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    z-index:1000;
+
+}
+
+#pContainer{
+    position: absolute;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transform: rotate(0deg);
+    z-index:10;
+    width:200px;
+    height:200px;
+}
+
+#container{
+    width:302px;
+    height:300px;
+    position: relative;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top:20px;
+    transform: rotate(0deg);
+    z-index:10;
+}
+
+.outerContainer{
+    position: relative;
+    width:300px;
+    display: block;
+    margin: auto;
+}
+
+.titleContainer {
+    position: absolute;
+    bottom:10px;
+    width:0px;
+    text-align: center;
+    z-index:1000;
+    /*   cursor: pointer; */
+}
+
+.twoTitleContainer{
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    /*     /* cursor: pointer; */
+}
+
+.title {
+    margin-top: 82px;
+    transform: rotate(180deg);
+    width: 110px;
+    z-index: 1000;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.spinButton{
+    width:100px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    text-align:center;
+    border: solid 1px black;
+    cursor: pointer;
+    z-index:1000;
+}
+
+label{
+    cursor: pointer;
+}
+
+.disable{
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.stopper{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid red;
+    transform: rotate(-90deg);
+    z-index: 1000;
+    top: 30px;
+    left: 140px;
+    position: absolute;
+}

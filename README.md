@@ -25,7 +25,8 @@ You need to have the below HTML heirarchy in order for JavaScript to correctly s
         <ul id="list"></ul>
     </div>
 
-</div>```
+</div>
+```
 
 If you want to change the classes/ids you can but you need to update them in the CSS, JS and HTML. 
 

@@ -1,6 +1,28 @@
 # Wonder Wheel
 
-The Wonder Wheel accepts an array of objects representing skills. These skills have a title, fill color, font color, id as well as project id for filter purposes. The project id corresponds to the array of project objects. 
+The Wonder Wheel accepts an array of objects representing skills, called slices. These skills have a title, fill color, font color, id as well as project id for filter purposes. The project id corresponds to the array of project objects. See below.
+
+```var projects = [
+  {projectName: 'JavaScript 1', filter: 'js'},
+  {projectName: 'JavaScript 2', filter: 'js'},
+  {projectName: 'JavaScript 3', filter: 'js'},
+  {projectName: 'Scala 1', filter: 'scala'},
+  {projectName: 'Scala 2', filter: 'scala'},
+  {projectName: 'Python 1', filter: 'py'},
+  {projectName: 'PHP 1', filter: 'php'},
+  {projectName: 'PHP 2', filter: 'php'}
+]
+
+var slices = [
+
+  {title: 'JavaScript', fill: "grey", font: 'white', id: 0, project: 'js'},
+  {title: 'Ruby', fill: "grey", font: 'white', id: 1, project: 'ruby'},
+  {title: 'Python', fill: 'grey', font: 'white', id: 2, project: 'py'},
+  {title: "Java", fill: "grey", font: "white", id: 3, project: 'java'},
+  { title: "Scala", fill: "grey", font: "white", id: 4, project: 'scala'},
+  {title: "PHP",fill: "grey",font: "white",id: 5, project: 'php'},
+]
+```
 
 ## Usage
 

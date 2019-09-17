@@ -15,7 +15,6 @@ var projects = [
 ]
 
 var slices = [
-
   {title: 'JavaScript', fill: "grey", font: 'white', id: 0, project: 'js'},
   {title: 'Ruby', fill: "grey", font: 'white', id: 1, project: 'ruby'},
   {title: 'Python', fill: 'grey', font: 'white', id: 2, project: 'py'},
@@ -29,7 +28,8 @@ var slices = [
 
 You need to have the below HTML heirarchy in order for JavaScript to correctly select portions of the DOM. 
 
-```<div id='wrapper'>
+```
+<div id='wrapper'>
     <div class='outerContainer'>
         <div>
             <p class="spinButton" onclick="spin()">Spin</p>
@@ -59,7 +59,8 @@ You operate the wonder wheel by clicking the spin button and whatever result the
 
 `slices` objects can contain either `font` and `fill` values to determine style of wheel slice OR you can apply a general `backgroundColor` and `color` to `wheelData`. See below.
 
-```ACCEPTABLE SLICE OBJECT
+```
+ACCEPTABLE SLICE OBJECT
 
     {title: 'JavaScript', fill: "grey", font: 'white', id: 0, project: 'js'}
 
@@ -70,7 +71,8 @@ You operate the wonder wheel by clicking the spin button and whatever result the
     OR 
 
     {title: 'JavaScript', id: 0, project: 'js'}
-    ```
+    
+```
 
 *If you are going to omit font and fill colors then you must set `backgroundColor`. See below.
 

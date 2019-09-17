@@ -71,7 +71,7 @@ ACCEPTABLE SLICE OBJECT
     OR 
 
     {title: 'JavaScript', id: 0, project: 'js'}
-    
+
 ```
 
 *If you are going to omit font and fill colors then you must set `backgroundColor`. See below.
@@ -104,6 +104,8 @@ const wheelData = {
 };
 
 ```
+
+*Conversely, if you are going to set `backgroundColor` to null you need to set the `fill` attribute in each slice object. `backgroundColor` can either be a string or null but it must be present.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

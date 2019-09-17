@@ -19,7 +19,6 @@ var slices = [
 ];
 
 const wheelData = {
-  sliceStyle: true,
   backgroundColor: "grey",
   color: null,
   slices: slices,

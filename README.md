@@ -55,6 +55,54 @@ If you want to change the classes/ids you can but you need to update them in the
 
 You operate the wonder wheel by clicking the spin button and whatever result the wheel lands on is what will be used for your filter. You can also click on the titles in the pie chart sections to render a list of projects that have that project ID. 
 
+##Parameters
+
+`slices` objects can contain either `font` and `fill` values to determine style of wheel slice OR you can apply a general `backgroundColor` and `color` to `wheelData`. See below.
+
+```ACCEPTABLE SLICE OBJECT
+
+    {title: 'JavaScript', fill: "grey", font: 'white', id: 0, project: 'js'}
+
+    OR 
+
+    {title: 'JavaScript', fill: "", font: '', id: 0, project: 'js'}
+
+    OR 
+
+    {title: 'JavaScript', id: 0, project: 'js'}
+    ```
+
+*If you are going to omit font and fill colors then you must set `backgroundColor`. See below.
+
+```ACCEPTABLE WHEELDATA OBJECT
+
+const wheelData = {
+  backgroundColor: "grey",
+  color: null,
+  slices: slices,
+  projects: projects
+};
+
+OR
+
+const wheelData = {
+  backgroundColor: "",
+  color: "",
+  slices: slices,
+  projects: projects
+};
+
+OR
+
+const wheelData = {
+  backgroundColor: null,
+  color: null,
+  slices: slices,
+  projects: projects
+};
+
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

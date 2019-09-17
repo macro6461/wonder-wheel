@@ -26,6 +26,7 @@ var slices = [
 
 ## Usage
 
+For Vanilla JS Wonder Wheel, use files in `wonder-wheel-js` directory. Wonder Wheel React Component is on the way!
 You need to have the below HTML heirarchy in order for JavaScript to correctly select portions of the DOM. 
 
 ```
